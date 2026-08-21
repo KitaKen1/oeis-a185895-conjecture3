@@ -1,0 +1,11 @@
+name = "oeis_a185895_conjecture3_fc"
+version = "0.1.0"
+defaultTargets = ["OeisA185895Conjecture3FC"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "e13dd7284e72012a1616806d09cb6b8025e387af"
+
+[[lean_lib]]
+name = "OeisA185895Conjecture3FC"
